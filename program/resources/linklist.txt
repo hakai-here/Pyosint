@@ -1,0 +1,9 @@
+Avaliable browsing options:
+
+`  --> may cause 403 
+*  --> prefered way of choice
+
+
+            Google` 
+            Bing *
+            DuckDuckgo`
