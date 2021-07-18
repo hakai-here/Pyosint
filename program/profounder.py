@@ -19,8 +19,8 @@ while(askusr == 'y' or askusr == 'Y'):
    print("The output from this program may vary from the one you are looking for  ")
    
    clear.s()
-   os.system("cat ~/program/resources/logo.txt")#changes to be made
-   os.system("cat ~/program/resources/devinfo.txt")#changes to be made
+   os.system("cat program/resources/logo.txt")#changes to be made
+   os.system("cat program/resources/devinfo.txt")#changes to be made
    
    print("\n\n\t0 to exit \n\t1 search username on  all prebuild templates \n\t2 search username from a specific from prebuild template \n\t3 source code extractor  \n\t5 Web scrapping ")
    m=int(input("\n enter your choice \u279c "))
