@@ -1,5 +1,5 @@
 # Profounder
 <p>
 usage :</p><br>
-cd program<br>
+pip3 install -r requirements.txt
 python3 profounder.py<br>
