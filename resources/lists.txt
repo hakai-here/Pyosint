@@ -1,0 +1,16 @@
+    github
+    facebook
+    twitter
+    spotify
+    soundcloud
+    steam
+    tryhackme
+    hackthebox (forums)
+    myspace
+    trello
+    youtube
+    linktree
+    pornhub
+    xvideos 
+
+
