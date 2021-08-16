@@ -2,7 +2,6 @@ import osinter
 import os
 from time import sleep
 import alonsercher
-import clear
 import socodex
 import linkes
 import crawler
