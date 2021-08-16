@@ -3,7 +3,7 @@
 <br>usage :</p>
 
 ```markdown
-pip3 install -r requirements.txt<br>
-python3 Pylookup.py <br>
+pip3 install -r requirements.txt
+python3 Pylookup.py 
 
 ```
