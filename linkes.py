@@ -10,7 +10,7 @@ def act():
     clear.s()
     i=input("\n enter the request here :-->")
     i=links.changer(i)
-    os.system("cat ~/program/resources/linklist.txt") #changes should be made 
+    os.system("cat resources/linklist.txt") #changes should be made 
     j=input("\n Enter the browser of choice : ")
     j=j.lower()
     i=linksele.selector(j,i)
