@@ -57,7 +57,7 @@ def crawl(url,max_url=30):
         crawl(link,max_url=max_url)
 def web():
     print("SSL error may occure ")
-    i=input("\n\tEnter the url -> ")
+    i=input("\n\tEnter the url -> (https://example.com ")
     j=int(input("\n\tEnter the max_url limit [default = 30] "))
     crawl(i,j)
     print("[\u297c] Total internal links:",len(internal_urls))
