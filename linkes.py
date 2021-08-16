@@ -4,7 +4,6 @@ from urllib.request import urlopen
 from urllib.error import HTTPError
 import links
 import linksele
-import clear
 
 def act():
     clear.s()
