@@ -9,22 +9,7 @@ def s():
     else:
         os.system("cls")
         
-done = False
 
-def animate():
-    for c in itertools.cycle(['|', '/', '-', '\\']):
-        if done:
-            break
-        sys.stdout.write('\rloading ' + c)
-        sys.stdout.flush()
-        time.sleep(0.1)
-    sys.stdout.write('\r\tDone!     ')
-    time.sleep(1)
-
-t = threading.Thread(target=animate)
-t.start()
-time.sleep(3)
-done = True
         
         
         
