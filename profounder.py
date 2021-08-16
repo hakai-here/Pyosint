@@ -8,9 +8,13 @@ import linkes
 import crawler
 
 
-clear.s()
+def s():
+    if(os.name == 'posix'):
+        os.system("clear")
+    else:
+        os.system("cls")
 
-
+s()
 
 
 askusr='y'
