@@ -2,7 +2,6 @@ import requests
 import os
 from urllib.request import urlopen
 from urllib.error import HTTPError
-from storage import container
 import links
 import linksele
 import clear
