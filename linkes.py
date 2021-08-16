@@ -6,7 +6,7 @@ import links
 import linksele
 
 def act():
-    clear.s()
+   
     i=input("\n enter the request here :-->")
     i=links.changer(i)
     os.system("cat resources/linklist.txt") #changes should be made 
