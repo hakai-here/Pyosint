@@ -21,7 +21,7 @@ while(askusr == 'y' or askusr == 'Y'):
    
    print("The output from this program may vary from the one you are looking for  ")
    
-   clear.s()
+   s()
    os.system("cat resources/logo.txt")#changes to be made
    os.system("cat resources/devinfo.txt")#changes to be made
    
