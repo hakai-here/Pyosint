@@ -11,6 +11,9 @@ def s():
     if(os.name == 'posix'):
         os.system("clear")
     else:
+        print(" \n Some of the commands may not work (Like logo displaying and devinfo ).")
+        print ("\n You are safe to continue \n\n ")
+        tempe=input("\tPress any key to continue ")
         os.system("cls")
 
 s()
