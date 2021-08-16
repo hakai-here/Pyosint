@@ -9,7 +9,7 @@ import crawler
 
 
 clear.s()
-clear.animate()
+
 
 
 
