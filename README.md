@@ -2,7 +2,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/d8rkmind/Pylookup/main/Pylookup.png"></p>
   
-<h1>PyLookup</h1>
 
 <p> an OSINT porject completly on python ,previously named <b>Profounder</b> 
   mainly to find given username in some website and to scrap urls from a diven website.
