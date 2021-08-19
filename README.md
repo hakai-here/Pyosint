@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/d8rkmind/Pylookup/main/Pylookup.png"></div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/d8rkmind/Pylookup/main/Pylookup.png"></p>
   
 <h1>PyLookup</h1>
 
