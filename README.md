@@ -27,7 +27,6 @@ Arguments  | Functionality
 find (-f)  | To search for a user name from specific Web sites.
  scrap (-s ) | For scrapping url from a website.
  
- Example :
  
  ```
  python3 Pylookup.py find
