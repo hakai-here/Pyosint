@@ -2,7 +2,7 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/d8rkmind/Pylookup/main/Pylookup.png"></p>
 
-<h1>Pylookup</h1>
+#Pylookup
   
 
 <p> an OSINT porject completly on python ,previously named <b>Profounder</b> 
