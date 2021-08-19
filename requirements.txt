@@ -1,3 +1,4 @@
 requests
 bs4
 urllib3
+colorama
