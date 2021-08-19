@@ -26,7 +26,8 @@ Sub commands  | Functionality
 find (-f)  | To search for an username in specific websites
  scrap (-s ) | To do url scrapping from a website
  
- Like:
+ Example :
+ 
  ```
  python3 Pylookup.py find
           or 
