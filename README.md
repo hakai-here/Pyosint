@@ -4,7 +4,7 @@
 <h1>Pylookup</h1>
   
 
-<p> An OSINT project entirely in python, previously referred to as Profounder mainly to find user names given in some websites and to remove URLs from a given website., has yet to be upgraded. 
+<p> An OSINT project entirely in python, previously referred to as Profounder, mainly to find user names given in specific websites and to remove URLs from a given website., has yet to be upgraded. 
 <br></p>
 
 <h2>Installation</h2>
