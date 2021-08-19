@@ -198,7 +198,7 @@ def main():
                     clear - To clear screen
                     set   - To specify a value for different variables.
 
-                            set domain <domain/webpage>
+                            set url <domain/webpage>
                             set service <http/https> 
 
                             If you wish to remove the banner type : \033[1m set banner off \033[0m  
