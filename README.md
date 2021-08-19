@@ -13,7 +13,7 @@
 cd Pylookup
 pip3 install -r requirements.txt
 ```
-Usage :
+<b>Usage :</b>
 
 ```
 python3 Pylookup.py [OPTIONS]
