@@ -22,10 +22,10 @@ python3 Pylookup.py [OPTIONS]
 
 There are mainly two sub-commands in the script 
 
-Arguments  | Functionality
-------------- | -------------
-find (-f)  | To search for a user name from specific Web sites.
- scrap (-s ) | For scrapping url from a website.
+Arguments |Shot-form    | Functionality
+----------|-- | -------------
+  find |-f    | To search for a user name from specific Web sites.
+ scrap |-s   | For scrapping url from a website.
  
  
  ```
