@@ -179,6 +179,7 @@ def main():
     
     elif(argument == "-s" or argument=="scrap"):
         art(k)
+        initliz()
         repetvalue = 1
         col =0
         mine = k
