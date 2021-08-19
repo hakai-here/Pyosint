@@ -72,7 +72,7 @@ def main():
 
     clean()
     k=randint(1,7)
-    if(len(sys.argv) == 1:
+    if(len(sys.argv) == 1):
        argument = "help"
     else:
        argument = sys.argv[1]
