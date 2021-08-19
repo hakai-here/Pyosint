@@ -1,12 +1,51 @@
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" />
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
+  </p>
+<h1>PyLookup</h1>
 
-<h1> Readme.md soon will be updated</h1>
-# Pylookup 
-<p> A python based tool ,made to find a username in specfic templates (previous name profounder)
-<br>usage :</p>
+<p> an OSINT porject completly on python ,previously named <b>Profounder</b> 
+  mainly to find given username in some website and to scrap urls from a diven website.
+  still need to be improved 
+<br></p>
+
+<h2>Installation</h2>
 
 ```markdown
+cd Pylookup
 pip3 install -r requirements.txt
-python3 Pylookup.py 
+```
+Usage :
 
 ```
+python3 Pylookup.py [OPTIONS]
+```
+<h2>Command-line Usage Information</h2>
+There are mainly 2 subcommands in the script 
+
+Sub commands  | Functionality
+------------- | -------------
+find (-f)  | To search for an username in specific websites
+ scrap (-s ) | To do url scrapping from a website
+ 
+ Like:
+ ```
+ python3 Pylookup.py find
+          or 
+ python3 Pylookup.py scrap
+ 
+ ```
+ 
+<br> 
+Giving the above options as argument it will spawn an interactive shell (I_S) to work on 
+Typing help as input will show all the following inbuild commands to work on 
+
+Prompt commands | Functionality
+----------------|--------------
+show | to show options
+set  | to set values to inbuild variables
+run  | to activate the program with given variables
+clear| to clear screen 
+
+
+The project is still under development and will be added with more feature <br>
+hoping for the best 
