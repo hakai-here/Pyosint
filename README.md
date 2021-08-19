@@ -47,7 +47,7 @@ clear| to clear screen
 
 
 The project is still under development and will be added with more feature <br>
-hoping for the best 
+Hoping for the best 
 
 <h3>Update informations</h3>
 
