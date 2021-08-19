@@ -230,7 +230,7 @@ def main():
                 print(" Number   :   {}     ".format(value))
                 print("\n"+fan(2,81,50)+"\n")
             
-            elif(inlist[0] == "scrap"):
+            elif(inlist[0] == "scrap" or inlist[0] == "run"):
                 crawljoin(weblink,serv)
 
 
