@@ -1,6 +1,5 @@
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-  </p>
+  
 <h1>PyLookup</h1>
 
 <p> an OSINT porject completly on python ,previously named <b>Profounder</b> 
