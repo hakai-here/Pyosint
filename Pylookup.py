@@ -83,7 +83,7 @@ def main():
             Options :
                 
                -f or find  --  To search for username 
-               -s scrap --  To scrap given web address 
+               -s or scrap --  To scrap url from given website 
 
             example :
              python3 Pylookup.py find
