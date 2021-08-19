@@ -107,17 +107,17 @@ def main():
                 
                  You can run following commands:
 
-                    help  - To show help menu 
+                    help  - To display help menu 
                     clear - To clear screen
-                    set   - To set a value of diffrent variables
+                    set   - To specify a value for different variables.
 
                             set username <name>
                             set site <site-name>
                             
-                            if You want to remove baner type \033[1m set banner off \033[0m  
+                            If you wish to remove the banner type : \033[1m set banner off \033[0m  
                             and clear the screen
                         
-                        These are the sites avaliable :
+                        List of the avaliable sites  :
 
                         github  
                         facebook  
@@ -138,7 +138,7 @@ def main():
 
 
                     show  - to show the set options
-                    run   - to execute the program with set options 
+                    run   - to execute the program 
                 
                  ''')
             elif (inlist[0]=="clear"):
@@ -196,15 +196,16 @@ def main():
 
                     help  - To show help menu 
                     clear - To clear screen
-                    set   - To set a value of diffrent variables
+                    set   - To specify a value for different variables.
 
                             set domain <domain/webpage>
                             set service <http/https> 
 
-                        if You want to remove baner type \033[1m set banner off \033[0m  
-                        and clear the screen
+                            If you wish to remove the banner type : \033[1m set banner off \033[0m  
+                            and clear the screen
 
-                    show -> show options        
+                    show -> show options 
+                    run  -> to execute the program
                 
                 
                  ''')
