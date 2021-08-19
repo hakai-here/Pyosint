@@ -4,9 +4,7 @@
 <h1>Pylookup</h1>
   
 
-<p> an OSINT porject completly on python ,previously named <b>Profounder</b> 
-  mainly to find given username in some website and to scrap urls from a diven website.
-  still need to be improved 
+<p> An OSINT project entirely in python, previously referred to as Profounder mainly to find user names given in some websites and to remove URLs from a given website., has yet to be upgraded. 
 <br></p>
 
 <h2>Installation</h2>
@@ -20,13 +18,14 @@ pip3 install -r requirements.txt
 ```
 python3 Pylookup.py [OPTIONS]
 ```
-<h2>Command-line Usage Information</h2>
-There are mainly 2 subcommands in the script 
+<h2>Command Line Utilization Information.</h2>
 
-Sub commands  | Functionality
+There are mainly two sub-commands in the script 
+
+Arguments  | Functionality
 ------------- | -------------
-find (-f)  | To search for an username in specific websites
- scrap (-s ) | To do url scrapping from a website
+find (-f)  | To search for a user name from specific Web sites.
+ scrap (-s ) | For scrapping url from a website.
  
  Example :
  
@@ -38,19 +37,20 @@ find (-f)  | To search for an username in specific websites
  ```
  
 <br> 
-Giving the above options as argument it will spawn an interactive shell (I_S) to work on 
-Typing help as input will show all the following inbuild commands to work on 
+By giving the above options as argument, it will generate an interactive shell which you can work with for the corresponding functions.
+Entering the input "help" shows all of the following build commands.
 
-Prompt commands | Functionality
+Commands | Functionality
 ----------------|--------------
-show | to show options
-set  | to set values to inbuild variables
-run  | to activate the program with given variables
-clear| to clear screen 
+show | for displaying options.
+set  | for defining values for the inbuild variables.
+run  | for activating the program with specified variables.
+clear| for erasing the screen.
 
 
-The project is still under development and will be added with more feature <br>
-Hoping for the best 
+
+The project is still in development and will be added with additional functionality.<br>Happy to hear suggestions for improvement.
+
 
 <h3>Update informations</h3>
 
