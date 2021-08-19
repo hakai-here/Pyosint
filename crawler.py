@@ -59,5 +59,5 @@ def web(i,j):
     crawl(i,j)
     print("[\u297c] Total internal links:",len(internal_urls))
     print("[\u297c] Total External links:",len(external_url))
-    print("[\u297c] Total Scrapped  Urls:",len(external_url)+len(internal_urls))
+    print("[\u297c] Total Scrapped  Urls:",len(external_url)+len(internal_urls)) 
     
