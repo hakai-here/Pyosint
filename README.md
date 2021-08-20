@@ -47,6 +47,7 @@ show | for displaying options.
 set  | for defining values for the inbuild variables.
 run  | for activating the program with specified variables.
 clear| for erasing the screen.
+help | to show help option in the module
 
 
 
@@ -55,4 +56,11 @@ The project is still in development and will be added with additional functional
 
 <h3>Update informations</h3>
 
-<b> v1.0</b>: Rewritten the code completely ,Improved interface
+<h4> update-18-8-21</h4>:<br> 
+Rewritten the code completely ,Improved interface
+<br>
+<h4> update-20-8-21</h4>: 
+Added subdomain enumeration module(enum) modified version of [Sublist3r2](https://github.com/RoninNakomoto/Sublist3r2)
+
+ 
+ 
