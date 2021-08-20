@@ -29,6 +29,7 @@ Arguments |Shot<br>form    | Functionality
  scrap |-s   | For scrapping url from a website.
  enum  |-e   | to count the number of subdomains on a website(enumeration)
  
+ <br>
  
  ```
  python3 Pyosint.py find
