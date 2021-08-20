@@ -314,8 +314,8 @@ class GoogleEnum(enumratorBaseThreaded):
 
     def check_response_errors(self, resp):
         if (type(resp) is str or type(resp) is unicode) and 'Our systems have detected unusual traffic' in resp:
-            self.print_(R + "[!] Error: Google probably now is blocking our requests" + W)
-            self.print_(R + "[~] Finished now the Google Enumeration ..." + W)
+            self.print_(R + " Google probably now is blocking our requests" + W)
+            self.print_(R + " Finished now the Google Enumeration ..." + W)
             return False
         return True
 
@@ -1019,6 +1019,7 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
 
 
 def callin():
+    nocolor()
     k = random.randint(1,7)
     domain = "example.com"
     threads = 7000
