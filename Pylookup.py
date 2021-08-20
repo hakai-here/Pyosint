@@ -99,7 +99,7 @@ def main():
         repetvalue = 1
         col =0
         while repetvalue == 1:
-            initv=fan(3,24,3,col)
+            initv=fan(3,24,3,col,"Find ")
             k = mine
             inlist = initv.split()
             if (inlist[0] == "help"):
@@ -186,7 +186,7 @@ def main():
         col =0
         mine = k
         while repetvalue == 1:
-            initv=fan(3,24,3,col)
+            initv=fan(3,24,3,col,"Scrap ")
             k = mine
             inlist = initv.split()
             if (inlist[0] == "help"): # to be added services 
