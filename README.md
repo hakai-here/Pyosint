@@ -66,7 +66,7 @@ Commands|  Arguments    | Description
  help  |      | Display the help menu
  show  | | To display "set" options
  run   | | To activate script 
-
+ clear | | To clear screen
 
 
 The project is still in development and will be added with additional functionality.<br>Happy to hear suggestions for improvement.
