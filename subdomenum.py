@@ -1072,12 +1072,6 @@ def callin():
             elif(inlist[1] == "ports"):
                 ports = inlist[2]
 
-
-
-                elif(inlist[2] == "false"):
-                    verbose = False
-                    ver = vermanager(verbose)
-
             elif(inlist[1] == "bruteforce"):
                 if(inlist[2] == "true"):
                     enable_bruteforce = None
