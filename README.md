@@ -4,9 +4,8 @@
 <h1>Pyosint</h1>
   
 
-<p> An OSINT project entirely in python, previously referred to as Profounder, mainly to find user names given in specific websites and to remove URLs from a given website,Still in its development phase.
+<p> Subdomain enumeration,Web scraping, finding usernames, and more at the fingertip for the user are all features of this OSINT framework project in Python, previously known as Profounder.
 <br></p>
-
 <h2>Installation</h2>
 
 ```markdown
