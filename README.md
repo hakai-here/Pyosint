@@ -72,8 +72,8 @@ Commands|  Arguments    | Description
 
 The project is still in development and will be added with additional functionality.<br>Happy to hear suggestions for improvement.
 
-<h2>License</h2>
-Pyosint is licensed under the GNU GPL license. take a look at the <a href="https://github.com/d8rkmind/PyOsint/blob/main/LICENSE">LICENSE</a>
+<h2>License :</h2>
+Pyosint is licensed under the GNU GPL license. take a look at the <a href="https://github.com/d8rkmind/PyOsint/blob/main/LICENSE">LICENSE</a> for more information
 
 
 <h3>Update informations</h3>
