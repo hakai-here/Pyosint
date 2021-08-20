@@ -1,6 +1,9 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/d8rkmind/PyOsint/main/Pyosint.png"><br>
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
+<img scr="https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg">
+<img scr="https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg">
+<img src="https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg>
 </p>
 
   
