@@ -64,6 +64,8 @@ Commands|  Arguments    | Description
  -|output      | Save the results to a text file
  -|banner  | Toggle on/off between ascii art
  help  |      | Display the help menu
+ show  | | To display "set" options
+ run   | | To activate script 
 
 
 
