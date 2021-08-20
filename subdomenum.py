@@ -115,22 +115,9 @@ def parser_error(errmsg):
     print(R + "Error: " + errmsg + W)
     sys.exit()
 
-
-def parse_args():
-    # parse the arguments
-    parser = argparse.ArgumentParser(epilog='\tExample: \r\npython ' + sys.argv[0] + " -d google.com")
-    parser.error = parser_error
-    parser._optionals.title = "OPTIONS"
-    parser.add_argument('-d', '--domain', help="Domain name to use for subdomain enumeration", required=True)
-    parser.add_argument('-b', '--bruteforce', help='Turn-on aiodnsbrute bruteforce mode', nargs='?', default=False)
-    parser.add_argument('-p', '--ports', help='Check/Filter subdomain results for open ports (provide comma separated ports')
-    parser.add_argument('-v', '--verbose', help='Enable verbose mode and display results in realtime', nargs='?', default=False)
-    parser.add_argument('-t', '--threads', help='Number of threads to use for aiodnsbrute bruteforce', type=int, default=7000)
-    parser.add_argument('-e', '--engines', help='Specify a comma-separated list of search engines')
-    parser.add_argument('-o', '--output', help='Save the results to text file')
-    parser.add_argument('-n', '--no-color', help='Output without color', default=False, action='store_true')
-    return parser.parse_args()
-
+def vtotalapi():
+    f = open("virustotalapi.txt", "r")
+    return f
 
 def write_file(filename, subdomains):
     # saving subdomains results to output file
@@ -705,7 +692,7 @@ class Virustotal(enumratorBaseThreaded):
         base_url = 'https://www.virustotal.com/api/v3/domains/{domain}/subdomains'
         self.engine_name = "Virustotal"
         if os.getenv("VT_APIKEY") is None:
-            VT_APIKEY=input(B + "[+] Enter VirusTotal API key, press Enter for none: " + W)
+            VT_APIKEY=vtotalapi()
             VT_APIKEY=VT_APIKEY.strip()
             if VT_APIKEY != "":
                 os.environ["VT_APIKEY"]=(VT_APIKEY)
