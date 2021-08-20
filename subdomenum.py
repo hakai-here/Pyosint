@@ -922,6 +922,9 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
    
     if enable_bruteforce or enable_bruteforce is None:
         enable_bruteforce = True
+    
+    if verbose or verbose is None:
+            verbose = True
 
     domain_check = re.compile("^(http|https)?[a-zA-Z0-9]+([\-\.]{1}[a-zA-Z0-9]+)*\.[a-zA-Z]{2,}$")
     if not domain_check.match(domain):
@@ -1071,6 +1074,15 @@ def callin():
 
             elif(inlist[1] == "ports"):
                 ports = inlist[2]
+            
+            elif(inlist[1] == "verbose"):
+                if(inlist[2] == "true"):
+                    verbose = None
+                    ver = vermanager(verbose)
+                elif(inlist[2] == "false"):
+                    verbose = False
+                    ver = vermanager(enable_bruteforce)
+
 
             elif(inlist[1] == "bruteforce"):
                 if(inlist[2] == "true"):
