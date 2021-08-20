@@ -56,11 +56,11 @@ The project is still in development and will be added with additional functional
 
 <h3>Update informations</h3>
 
-<h4> update on 18-8-21:</h4><br> 
+<h4> update on 18-8-21:</h4>
 Rewritten the code completely ,Improved interface
-<br>
+
 <h4> update on 20-8-21:</h4> 
-Added subdomain enumeration module(enum) modified version of <a href="https://github.com/RoninNakomoto/Sublist3r2">Sublist3rv2</a>
+Subdomain enumeration module (enum) has been added, which is a modified version of <a href="https://github.com/RoninNakomoto/Sublist3r2">Sublist3rv2</a>
 
  
  
