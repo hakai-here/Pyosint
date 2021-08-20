@@ -10,13 +10,13 @@
 <h2>Installation</h2>
 
 ```markdown
-cd Pylookup
+cd PyOsint
 pip3 install -r requirements.txt
 ```
 <b>Usage :</b>
 
 ```
-python3 Pylookup.py [OPTIONS]
+python3 Pyosint.py [OPTIONS]
 ```
 <h2>Command Line Utilization Information.</h2>
 
@@ -29,9 +29,9 @@ Arguments |Shot<br>form    | Functionality
  
  
  ```
- python3 Pylookup.py find
+ python3 Pyosint.py find
           or 
- python3 Pylookup.py scrap
+ python3 Pyosint.py scrap
  
  ```
  
