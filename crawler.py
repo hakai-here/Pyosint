@@ -36,10 +36,10 @@ def get_all_website_links(url): #return urls from a website
             continue
         if domain_name not in href:
             if href not in external_url:
-                print(f"{GRAY} \n [⎇] External link --> {href}{RESET}")
+                print(f"{GRAY} \n Connected --> {href}{RESET}")
                 external_url.add(href)
             continue
-        print(f"{GREEN} \n [➤] Internal links --> {href}{RESET}")
+        print(f"{GREEN} \n Direct -> {href}{RESET}")
         urls.add(href)
         internal_urls.add(href)
     return urls
@@ -49,7 +49,7 @@ total_url_visited = 0
 def crawl(url,max_url=30):
     global total_url_visited
     total_url_visited+= 1
-    print(f"{YELLOW}\n [Δ] Crawling --> {url}{RESET}")
+    print(f"{YELLOW}\n Scrapping-> {url}{RESET}")
     links=get_all_website_links(url)
     for link in links:
         if total_url_visited > max_url:
