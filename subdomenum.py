@@ -730,9 +730,9 @@ class Virustotal(enumratorBaseThreaded):
                     self.url = ''
                 self.extract_domains(resp)
         else:
-            self.print_(R + "[!] Error: VirusTotal API key environment variable not found. Skipping" + W)
-            self.print_(R + "[!] set VT_APIKEY to your virus total API key using:   export VT_APIKEY=Your_VT_API_KEY_VALUE" + W)
-            self.print_(B + "[!] To get a VT APIKEY, register at https://www.virustotal.com/gui/join-us" +W)
+            self.print_(R + " Error: VirusTotal API key environment variable not found. Skipping" + W)
+            self.print_(R + "set VT_APIKEY to your virus total API key using:   export VT_APIKEY=Your_VT_API_KEY_VALUE" + W)
+            self.print_(B + " To get a VT APIKEY, register at https://www.virustotal.com/gui/join-us" +W)
         return self.subdomains
 
     def extract_domains(self, resp):
