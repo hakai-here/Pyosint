@@ -1115,9 +1115,9 @@ def callin():
                 savefile = inlist[2]
             
             elif(inlist[1] == "banner"):
-                if(inlist[2] == "on"):
+                if(inlist[2] == "off"):
                     k=0
-                elif(inlist[2] == "off"):
+                elif(inlist[2] == "on"):
                     k = random.randint(1,7)
             
             else:
