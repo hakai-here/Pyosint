@@ -56,12 +56,12 @@ These are all the arguments for the Enum functionality's "set" operation.
 Commands|  Arguments    | Description
  -------|----- |-------------
   set  |domain      | Use this domain name to enumerate subdomains.
-   |bruteforce  | Toggle the brute force mode on and off
- |ports       | Check/Filter subdomain results for open ports
- |verbose     | Switches between verbose and non-verbose modes(realtime results)
- |threads     | Specify the amount of brute force threads to use
- |engines     | Provide a list of search engines separated by commas.
- |output      | Save the results to a text file
+   -|bruteforce  | Toggle the brute force mode on and off
+ -|ports       | Check/Filter subdomain results for open ports
+ -|verbose     | Switches between verbose and non-verbose modes(realtime results)
+ -|threads     | Specify the amount of brute force threads to use
+ -|engines     | Provide a list of search engines separated by commas.
+ -|output      | Save the results to a text file
  help  |      | Display the help menu
 
 
