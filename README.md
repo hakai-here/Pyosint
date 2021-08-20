@@ -26,6 +26,7 @@ Arguments |Shot<br>form    | Functionality
 ----------|-- | -------------
   find |-f    | To search for a user name from specific Web sites.
  scrap |-s   | For scrapping url from a website.
+ enum  |-e   | to count the number of subdomains on a website(enumeration)
  
  
  ```
