@@ -1,7 +1,7 @@
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
 <p align="center">
 <img src="https://raw.githubusercontent.com/d8rkmind/Pylookup/main/Pylookup.png"></p>
-<h1>Pylookup</h1>
+<h1>Pyosint</h1>
   
 
 <p> An OSINT project entirely in python, previously referred to as Profounder, mainly to find user names given in specific websites and to remove URLs from a given website,Still in its development phase.
