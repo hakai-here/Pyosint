@@ -62,7 +62,7 @@ Commands|  Arguments    | Description
  -|threads     | Specify the amount of brute force threads to use
  -|engines     | Provide a list of search engines separated by commas.
  -|output      | Save the results to a text file
- -|banner  | Toggle on between ascii art
+ -|banner  | Toggle on/off between ascii art
  help  |      | Display the help menu
 
 
