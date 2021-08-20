@@ -50,7 +50,7 @@ if is_windows:
         colorama.init()
        
     except:
-        print("[!] Error: Coloring libraries not installed, no coloring will be used [Check the readme]")
+        print("Error: Coloring libraries not installed")
         G = Y = B = R = W = G = Y = B = R = W = ''
 
 
@@ -61,9 +61,7 @@ else:
     R = '\033[91m'  # red
     W = '\033[0m'   # white
 
-def no_color():
-    global G, Y, B, R, W
-    G = Y = B = R = W = ''
+
 
 def initliz():
     print('''
@@ -315,7 +313,7 @@ class GoogleEnum(enumratorBaseThreaded):
     def check_response_errors(self, resp):
         if (type(resp) is str or type(resp) is unicode) and 'Our systems have detected unusual traffic' in resp:
             self.print_(R + " Google probably now is blocking our requests" + W)
-            self.print_(R + " Finished now the Google Enumeration ..." + W)
+            self.print_(R + " Finished now the Google Enumeration " + W)
             return False
         return True
 
@@ -692,7 +690,7 @@ class Virustotal(enumratorBaseThreaded):
         base_url = 'https://www.virustotal.com/api/v3/domains/{domain}/subdomains'
         self.engine_name = "Virustotal"
         if os.getenv("VT_APIKEY") is None:
-            VT_APIKEY=input(B + "[+] Enter VirusTotal API key, press Enter for none: " + W)
+            VT_APIKEY=input(Y + " Enter VirusTotal API key, press Enter for none: " + W)
             VT_APIKEY=VT_APIKEY.strip()
             if VT_APIKEY != "":
                 os.environ["VT_APIKEY"]=(VT_APIKEY)
@@ -1019,7 +1017,7 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
 
 
 def callin():
-    nocolor()
+  
     k = random.randint(1,7)
     domain = "example.com"
     threads = 7000
