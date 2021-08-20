@@ -41,6 +41,7 @@ Arguments |Shot<br>form    | Functionality
 By giving the above options as argument, it will generate an interactive shell which you can work with for the corresponding functions.
 Entering the input "help" shows all of the following build commands.<br>
 <br>
+
 Commands | Functionality
 ----------------|--------------
 show | for displaying options.
