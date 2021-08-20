@@ -5,7 +5,7 @@
 
   
 
-<p> Subdomain enumeration,Web scraping, finding usernames, and more at the fingertip for the user are all features of this OSINT framework project in Python, previously known as Profounder.
+<p><b>S</b>ubdomain enumeration,Web scraping, finding usernames, and more at the fingertip for the user are all features of this OSINT framework project in Python, previously known as Profounder.
 <br></p>
 <h2>Installation</h2>
 
