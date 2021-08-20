@@ -1062,6 +1062,7 @@ def callin():
             print("\n Threads           :    {}".format(threads))
             print("\n Ports             :    {}".format(ports))
             print("\n Bruteforce        :    {}".format(bur))
+            print("\n Verbose           :    {} ".format(ver))
             print("\n Engine (specific) :    {}".format(engines))
             print("\n Output File       :    {}".format(savefile))
             print(fan(2,81,50))
