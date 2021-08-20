@@ -60,7 +60,7 @@ The project is still in development and will be added with additional functional
 Rewritten the code completely ,Improved interface
 <br>
 <h4> update-20-8-21</h4>: 
-Added subdomain enumeration module(enum) modified version of [Sublist3r2](https://github.com/RoninNakomoto/Sublist3r2)
+Added subdomain enumeration module(enum) modified version of [Sublist3r2](https://github.com/RoninNakomoto/Sublist3r2) 
 
  
  
