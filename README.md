@@ -31,9 +31,10 @@ Arguments |Shot<br>form    | Functionality
  
  ```
  python3 Pyosint.py find
-          or 
+ 
  python3 Pyosint.py scrap
  
+ python3 Pyosint.py enum
  ```
  
 <br> 
