@@ -1042,7 +1042,35 @@ def callin():
         if(inlist[0] == "help"):
             print(''' 
             
-            help 
+            You can run following commands:
+                    help  - To display help menu 
+                    clear - To clear screen
+                    set   - To specify a value for different variables.
+                    
+                            set domain <domainname>
+                            set thread <site-name>
+                            set ports <portnumber>   Portnumber to scan each should be seperates by comas
+                            set verbose <true/false>
+                            set bruteforce <true/false>
+                            set output <filename>
+                            set engine <engine name>  default all
+                            
+                             For specific engines (possible engine name list) :
+                                    
+                                    Virustotal  {requires api key}
+                                    Baidu
+                                    Yahoo
+                                    Google
+                                    Bing
+                                    Ask
+                                    Netcraft
+                                    DNSdumpster 
+                                    ThreatCrowd
+                                    CrtSearch
+                                    PassiveDNS
+                            
+                            If you wish to remove the banner type : \033[1m set banner off \033[0m  
+                            and clear the screen
             
             ''')
 
@@ -1081,7 +1109,7 @@ def callin():
                     ver = vermanager(verbose)
                 elif(inlist[2] == "false"):
                     verbose = False
-                    ver = vermanager(enable_bruteforce)
+                    ver = vermanager(verbose)
 
 
             elif(inlist[1] == "bruteforce"):
