@@ -1103,9 +1103,9 @@ def callin():
             
             elif(inlist[1] == "banner"):
                 if(inlist[2] == "off"):
-                    k=0
+                    mine=0
                 elif(inlist[2] == "on"):
-                    k = random.randint(1,7)
+                    mine = random.randint(1,7)
             
             else:
              print( R +" Wrong input "+W)
