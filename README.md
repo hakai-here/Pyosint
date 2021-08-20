@@ -49,6 +49,21 @@ run  | for activating the program with specified variables.
 clear| for erasing the screen.
 help | to show help option in the module
 
+<h2>Enumeration module utilitzation Information:</h2>
+
+These are all the arguments for the Enum functionality's "set" operation.
+
+  Arguments    | Description
+ ------------- |-------------
+ domain      | Use this domain name to enumerate subdomains.
+ bruteforce  | Toggle the brute force mode on and off
+ ports       | Check/Filter subdomain results for open ports
+ verbose     | Switches between verbose and non-verbose modes(realtime results)
+ threads     | Specify the amount of brute force threads to use
+ engines     | Provide a list of search engines separated by commas.
+ output      | Save the results to a text file
+ help        | Display the help menu
+
 
 
 The project is still in development and will be added with additional functionality.<br>Happy to hear suggestions for improvement.
