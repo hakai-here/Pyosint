@@ -3,6 +3,7 @@
 import os
 import sys
 import requests 
+import subdomenum
 from furrylamppylookup import fancy as fan
 from furrylamppylookup import art 
 from random import randint
@@ -178,7 +179,9 @@ def main():
             else:
                 print ("\n Wrong input try again : \n")
                 col=1
-    
+    elif(argument == "-e" or argument== "enum):
+         subdomemum.callin()
+         
     elif(argument == "-s" or argument=="scrap"):
         art(k)
         initliz()
