@@ -39,7 +39,7 @@ Arguments |Shot<br>form    | Functionality
  
 <br> 
 By giving the above options as argument, it will generate an interactive shell which you can work with for the corresponding functions.
-Entering the input "help" shows all of the following build commands.
+Entering the input "help" shows all of the following build commands.<br>
 
 Commands | Functionality
 ----------------|--------------
@@ -51,7 +51,7 @@ help | to show help option in the module
 
 <h2>Enumeration module utilitzation Information:</h2>
 
-These are all the arguments for the Enum functionality's "set" operation.
+These are all the commands and arguments for the Enum functionality operations .
 
 Commands|  Arguments    | Description
  -------|----- |-------------
