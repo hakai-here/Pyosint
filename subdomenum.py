@@ -1058,7 +1058,6 @@ def callin():
             print("\n Domain            :    {}".format(domain))
             print("\n Threads           :    {}".format(threads))
             print("\n Ports             :    {}".format(ports))
-            print("\n Verbose           :    {}".format(ver))
             print("\n Bruteforce        :    {}".format(bur))
             print("\n Engine (specific) :    {}".format(engines))
             print("\n Output File       :    {}".format(savefile))
@@ -1073,10 +1072,7 @@ def callin():
             elif(inlist[1] == "ports"):
                 ports = inlist[2]
 
-            elif(inlist[1] == "verbose"):
-                if(inlist[2] == "true"):
-                    verbose = None
-                    ver =vermanager(verbose)
+
 
                 elif(inlist[2] == "false"):
                     verbose = False
