@@ -938,10 +938,10 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
     parsed_domain = urlparse.urlparse(domain)
 
     if not silent:
-        print(B + "[-] Enumerating subdomains now for %s" % parsed_domain.netloc + W)
+        print(G + " Enumerating subdomains now for %s" % parsed_domain.netloc + W)
 
     if verbose and not silent:
-        print(Y + "[-] verbosity is enabled, will show the subdomains results in realtime" + W)
+        print(Y + " Realtime results : " + W)
 
     supported_engines = {'baidu': BaiduEnum,
                          'yahoo': YahooEnum,
@@ -983,7 +983,7 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
 
     if enable_bruteforce:
         if not silent:
-            print(G + "[-] Starting bruteforce module now using aiodnsbrute.." + W)
+            print(G + " Starting bruteforce using aiodnsbrute.." + W)
         record_type = False
         path_to_file = os.path.dirname(os.path.realpath(__file__))
         subs = os.path.join(path_to_file, 'aiodnsbrute', 'subdomains-top1million-110000.txt')
@@ -1002,11 +1002,11 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
             write_file(savefile, subdomains)
 
         if not silent:
-            print(Y + "[-] Total Unique Subdomains Found: %s" % len(subdomains) + W)
+            print(Y + " Total Unique Subdomains Found: %s" % len(subdomains) + W)
 
         if ports:
             if not silent:
-                print(G + "[-] Start port scan now for the following ports: %s%s" % (Y, ports) + W)
+                print(G + " Start port scan now for the following ports: %s%s" % (Y, ports) + W)
             ports = ports.split(',')
             pscan = portscan(subdomains, ports)
             pscan.run()
