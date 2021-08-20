@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
 <p align="center">
-<img src="https://raw.githubusercontent.com/d8rkmind/Pylookup/main/Pylookup.png"></p>
+<img src="https://raw.githubusercontent.com/d8rkmind/PyOsint/main/Pyosint.png"></p>
 <h1>Pyosint</h1>
   
 
