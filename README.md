@@ -1,7 +1,8 @@
-<img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
 <p align="center">
-<img src="https://raw.githubusercontent.com/d8rkmind/PyOsint/main/Pyosint.png"></p>
-<h1>Pyosint</h1>
+<img src="https://raw.githubusercontent.com/d8rkmind/PyOsint/main/Pyosint.png">
+<img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
+</p>
+
   
 
 <p> Subdomain enumeration,Web scraping, finding usernames, and more at the fingertip for the user are all features of this OSINT framework project in Python, previously known as Profounder.
