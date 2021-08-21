@@ -80,10 +80,10 @@ Pyosint is licensed under the GNU GPL license. take a look at the <a href="https
 
 <h3>Update informations</h3>
 
-<h4> update on 18-8-21:</h4>
+<h4> Update on 18-8-21:</h4>
 Rewritten the code completely ,Improved interface
 
-<h4> update on 20-8-21:</h4> 
+<h4> Update on 20-8-21:</h4> 
 Subdomain enumeration module (enum) has been added, which is a modified version of <a href="https://github.com/RoninNakomoto/Sublist3r2">Sublist3rv2</a>
 
  
