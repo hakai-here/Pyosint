@@ -5,7 +5,7 @@
 </p>
 
   
-
+ain enumeration module (enum) has been
 <p><b>Subdomain</b> enumeration,Web scraping, finding usernames, and more at the fingertip for the user are all features of this OSINT framework project in Python, previously known as Profounder.Still under development
 <br></p>
 <h2>Installation</h2>
@@ -78,7 +78,7 @@ The project is still in development and will be added with additional functional
 Pyosint is licensed under the GNU GPL license. take a look at the <a href="https://github.com/d8rkmind/PyOsint/blob/main/LICENSE">LICENSE</a> for more information
 
 
-<h3>Update informations</h3>
+<h2>Update informations</h2>
 
 <h4> Update on 18-8-21:</h4>
 Rewritten the code completely ,Improved interface
