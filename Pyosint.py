@@ -50,7 +50,9 @@ def run_find(j):
             else:
                 pass
         except ConnectionError:
-            print("[DEBUG] Connection timed out .sleeping for 1 sec")
+            print(" ╬")
+            print(" ╬➤ [DEBUG] Connection timed out .sleeping for 1 sec")
+            print(" ╬")
             sleep(1)
             i+=1
 
