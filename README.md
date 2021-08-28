@@ -89,7 +89,7 @@ Subdomain enumeration module (enum) has been added, which is a modified version 
 
 <h3> Update on 23-8-21:</h3>
 <p>
-Find module code that has been optimised. The number of sites to automate has grown from 14 to 147, and a connection error has been resolved.</p>
+Find module code that has been optimised. The number of sites to automate has grown from 14 to 147, and  connection error has been resolved.</p>
 
  
  
