@@ -1,11 +1,13 @@
+<h1 align="center">
+ 𝓟𝓨𝓞𝓢𝓘𝓝𝓣 
+ </h1>
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/d8rkmind/PyOsint/main/Pyosint.png"><br>
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
 <img src="https://img.shields.io/badge/license-GPL-blue">
-
 </p>
 
-  
+ <img src ="https://github.com/d8rkmind/datacontainer/blob/main/data/gif/Pyosint.gif" width=1920px>
 
 <p><b>Subdomain</b> enumeration,Web scraping, finding usernames, and more at the fingertip for the user are all features of this OSINT framework project in Python, previously known as Profounder.Still under development
 <br></p>
