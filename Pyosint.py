@@ -1,52 +1,64 @@
-#!/usr/bin/python3
-
+import argparse
+import requests.exceptions 
+from resources.agentk import run
+from resources.webagent import run_main
+from sys import argv as argu
+import resources.enumsub as subdom
 import os
-import sys
-import requests 
-import subdomenum
-from furrylamppylookup import fancy as fan
-from furrylamppylookup import art 
-from random import randint
-from crawler import web as cralweb
-from time import sleep 
-from requests.exceptions import ConnectionError
 
-def clean():
-    if(os.name == 'posix'):
-        os.system("clear")
-    else:
-        os.system("cls")
 
-def clear(x):
-    clean()
-    art(x)
-    return 0
 
-def crawljoin(x,y,z=30):
-    k=y+"://"+x
-    cralweb(k,z)
+G = '\033[92m'  
+Y = '\033[93m'  
+B = '\033[36m'  
+R = '\033[91m' 
+W = '\033[0m'
+L = "\033[90m"
 
-def initliz():
-    print('''
+def parse_arg():
+    parser = argparse.ArgumentParser(epilog='\tExample: \r\npython3 ' + argu[0] + " ")
+    parser._optionals.title = "OPTIONS"
+    parser.add_argument("-m",'--module',help="To specify the module to use ",required=True)
+    parser.add_argument("-n",'--name' ,help="Username or domain name ",required=True)
+    parser.add_argument("-o",'--output' ,help="Name  of the output file ",default=None)
+    parser.add_argument("-t",'--threads',help="To set thread value ",type=int,default=50)
+    parser.add_argument("-l",'--limit',help="To set the max limit for web crawling",default=30)
+    parser.add_argument("-v","--verbose",help="To enable verbose",nargs='?',default=False)
+    parser.add_argument("-p",'--ports',help="To set the ports for subdomain enum{seperate by using commas eg: 80,443}")
+    return parser.parse_args()
+
+#````````````````````````````````````````````````````````````````````````````````````````
+
+#````````````````````````````````````````````````````````````````````````````````````````
+def main():
+    agrument = parse_arg()
     
-        Type "help" to see options
+    module=agrument.module
+    name = agrument.name
+    output = agrument.output
+    thread = agrument.threads
+    limit = agrument.limit
+    port = agrument.ports
+    verbose = agrument.verbose
 
-     ''')
+    if (module == "find"):
+        run(username=name,output=output,threads=thread)
+    elif (module == "crawl" or module == "scrap"):
+        run_main(x=name,max=limit)
+    elif  (module == "enum" or module == "sub-domain"):
+            subdom.main(domain=name,threads=thread,savefile=output,ports=port,verbose=verbose)
 
-def run_find(j):
-    i=1
-    k=1
-    template={1:"https://www.github.com/",2:"https://www.facebook.com/",3:"https://www.twitter.com/",4:"https://tryhackme.com/p/",5:"https://forum.hackthebox.eu/profile/",6:"https://youtube.com/",7:"https://soundcloud.com/",8:"https://linktr.ee/",9:"https://myspace.com/",10:"https://open.spotify.com/user/",11:"https://trello.com/",12:"https://pornhub.com/users/",13:"https://www.xvideos.com/profiles/",14:"https://steamcommunity.com/id/",15:"https://www.npmjs.com/~",16:"https://www.7cups.com/@",17:"https://about.me/",18:"https://independent.academia.edu/",19:"https://discussions.apple.com/profile/",20:"https://ask.fm/",21:"https://audiojungle.net/user/",22:"https://blip.fm/",23:"https://www.bandcamp.com/",24:"https://bitbucket.org/",25:"https://bodyspace.bodybuilding.com/",26:"https://www.bookcrossing.com/mybookshelf/",27:"https://www.cnet.com/profiles/",28:"https://career.habr.com/",29:"https://www.cloob.com/name/",30:"https://community.cloudflare.com/u/",31:"https://www.codecademy.com/profiles/",32:"https://www.codechef.com/users/",33:"https://www.colourlovers.com/lover/",34:"https://www.cloob.com/name/",35:"https://www.colourlovers.com/lover/",36:"https://www.dailymotion.com/",37:"https://www.designspiration.net/",38:"https://www.discogs.com/user/",39:"https://disqus.com/",40:"https://hub.docker.com/u/",41:"https://dribbble.com/",42:"https://www.duolingo.com/profile/",43:"https://ello.co/",44:"https://euw.op.gg/summoner/userName=",45:"https://www.eyeem.com/u/",46:"https://f3.cool/",47:"https://facenama.com/",48:"https://www.flickr.com/people/",49:"https://my.flightradar24.com/",50:"https://flipboard.com/@",51:"https://fortnitetracker.com/profile/all/",52:"https://www.freelancer.com/u/",53:"https://freesound.org/people/",54:"https://giphy.com/",54:"https://gitlab.com/",55:"https://gitee.com/",56:"https://www.goodreads.com/",57:"http://en.gravatar.com/",58:"https://gurushots.com/",59:"https://hackaday.io/",60:"https://news.ycombinator.com/user?id=",61:"https://hackerone.com/",62:"https://hackerrank.com/",63:"https://www.house-mixes.com/profile/",64:"https://houzz.com/user/",65:"https://imgur.com/user/",66:"https://www.instructables.com/member/",67:"https://issuu.com/",68:"https://itch.io/profile/",69:"https://www.kongregate.com/accounts/",70:"https://launchpad.net/~",71:"https://leetcode.com/",72:"https://letterboxd.com/",73:"https://lichess.org/@/",74:"https://lolchess.gg/profile/na/",75:"https://www.memrise.com/user/",76:"https://www.mixcloud.com/",77:"https://myanimelist.net/profile/",78:"https://blog.naver.com/",79:"https://www.openstreetmap.org/user/",80:"https://opensource.com/users/",81:"https://otzovik.com/profile/",82:"https://forums.pcgamer.com/members/?username=",83:"https://psnprofiles.com/",84:"https://pastebin.com/u/",85:"https://www.patreon.com/",86:"https://www.periscope.tv/",87:"https://www.pinterest.com/",88:"https://pokemonshowdown.com/users/",89:"https://www.producthunt.com/@",90:"http://promodj.com/",91:"https://pypi.org/user/",92:"https://quizlet.com/",93:"https://www.quora.com/profile/",94:"https://raidforums.com/User-",95:"https://rateyourmusic.com/~",96:"https://www.redbubble.com/people/",97:"https://www.reddit.com/user/",98:"https://repl.it/@",99:"https://www.reverbnation.com/",100:"https://www.roblox.com/user.aspx?username=",101:"https://scratch.mit.edu/users/",102:"https://www.scribd.com/",103:"https://pikabu.ru/@",104:"https://osu.ppy.sh/users/",105:"https://www.npmjs.com/~",106:"https://note.com/",107:"https://www.nn.ru/",108:"https://www.nairaland.com/",109:"https://moikrug.ru/",110:"https://www.mercadolivre.com.br/perfil/",111:"https://mastodon.social/@",112:"https://forum.leasehackr.com/u/",113:"https://last.fm/user/",115:"https://kwork.ru/user/",116:"http://www.jeuxvideo.com/profil/",117:"https://www.interpals.net/",118:"https://www.hackster.io/",119:"https://www.geocaching.com/p/default.aspx?u=",120:"https://www.fl.ru/users/",121:"https://www.fixya.com/users/",122:"https://www.drive2.ru/users/",123:"https://www.babyblog.ru/user/info/",124:"http://www.authorstream.com/",125:"https://aminoapps.com/u/",126:"https://www.zhihu.com/people/",127:"https://youpic.com/photographer/",128:"https://www.younow.com/",129:"https://xboxgamertag.com/search/",130:"https://profiles.wordpress.org/",131:"https://community.windy.com/user/",132:"http://www.wikidot.com/user:info/",133:"https://weheartit.com/",134:"https://vimeo.com/",135:"https://vero.co/",136:"https://unsplash.com/@",137:"https://ultimate-guitar.com/u/",138:"https://data.typeracer.com/pit/profile?user=",139:"https://www.trakt.tv/users/",140:"https://www.tradingview.com/u/",141:"https://ch.tetr.io/u/",142:"https://steamcommunity.com/groups/",143:"https://scratch.mit.edu/users/",144:"https://www.scribd.com/",145:"https://slashdot.org/~",146:"https://slideshare.net/",147:"https://www.smule.com/",148:"https://sourceforge.net/u/",149:"https://www.sparkpeople.com/mypage.asp?id="}
-    for i in range (1,150):
-        if(i == 107 or i == 114):
-            i+=1
-        base_url=template[i]
-        url=base_url+j    
-        try:
-            response=requests.get(url)
-            if (response.status_code == 200):
-                print(" ╬➤ "+ url)
-                print(" ╬")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print(f"{Y}Keybord interrupt found Exiting the program :) {W}")
+        exit(0)
+    except requests.exceptions.MissingSchema:
+        print(f"{R}\n Missing schema. Perhaps you miss 'http://' ")
+
             else:
                 pass
         except ConnectionError:
