@@ -55,7 +55,10 @@ def indicator(x):
         list2=[]
         searchlist=["Date","Server","Content-Type","Cache-Control","X-TEC-API-VERSION","X-TEC-API-ROOT","X-TEC-API-ORIGIN","Transfer-Encoding","Pragma"]
         headerlist=["X-Frame-Options","Content-Security-Policy","X-XSS-Protection","X-Content-Type-Options","Strict-Transport-Security","P3P","X-Powered-By","X-Download-Options","Content-Disposition","Public-Key-Pins","Expect-CT","Cross-Origin-Resource-Policy","Cross-Origin-Opener-Policy","Access-Control-Allow-Origin","Access-Control-Allow-Credentials","Cross-Origin-Embedder-Policy","Feature-Policy","X-DNS-Prefetch-Control","Referrer-Policy","X-Permitted-Cross-Domain-Policies"]
-        response=requests.get(x,params=None, headers=HEADERS, cookies=None, auth=None, timeout=60).headers
+        try:
+            response=requests.get(x,params=None, headers=HEADERS, cookies=None, auth=None, timeout=60).headers
+        except requests.exceptions.ConnectionError:
+            print("\n Unable to connect ")
         ip = gethostbyname(k)
         ipaddr.append(str(ip))
         t = PrettyTable(["Raw Headers"," informations"])
@@ -143,4 +146,5 @@ def run_main(x,max=50,filename=0):
     crawl(x,max_url=max)
     write_file()
     
+
 
