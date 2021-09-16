@@ -85,7 +85,7 @@ Pyosint is licensed under the GNU GPL license. take a look at the <a href="https
 Rewritten the code completely ,Improved interface
 
 <h3> Update on 20-8-21:</h3> 
-Subdomain enumeration module (enum) has been added, which is a modified version of <a href="https://github.com/RoninNakomoto/Sublist3r2">Sublist3rv2</a>
+Subdomain enumeration module (enum) has been added
 
 <h3> Update on 23-8-21:</h3>
 <p>
