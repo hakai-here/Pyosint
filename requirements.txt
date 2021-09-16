@@ -4,7 +4,6 @@ urllib3
 colorama
 dnspython
 requests
-aiodnsbrute
 PyInquirer
 pwnedpasswords
 jinja2
