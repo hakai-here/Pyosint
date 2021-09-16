@@ -32,6 +32,7 @@ The main functionality of this program has been divided to 3 parts
  * Enum - To automate the search of subdomains of a given domain from diffrent services
  
  In Scrap module results are automatically stored in <i> output/web </i> folder wit he ip-address of the website as the filename <br><br>
+ The services used are<i> <b> Virus Total,PassiveDns,CrtSearch,ThreatCrowd</i> </b> <br>
 <b> Enum </b> module an Api key of <b>Virus total</b> that you can get from going <a href="https://www.virustotal.com/gui/sign-in"> Here </a><br>
 
 <img src = "https://github.com/d8rkmind/datacontainer/blob/main/data/pictures/mceclip0.png" width=1080p>
@@ -58,6 +59,18 @@ Arguments |Shot<br>form |Long<br>form| Functionality
  Verbose| -v| --verbose| To enable verbose mode <br><i>[ Applicable only to Enumeration ]</i>
  Ports| -p| --ports| To specify the ports to scan<br><i> [ Applicable only to Enumeration ]</ii>
  Help | -h| --help| To Show the help options
+ <br>
+ 
+ #### Example :
+ 
+ ###### Linux commands:
+ ``` 
+ python3 pyosint.py -m find -n exampleuser               <-- Username-huntdown
+ 
+ python3 pyosint.py -m scrap -n http://scanme.nmap.org   <-- Scrapping using bot
+ 
+ python3 pyosint.py -m enum -n google.com                <-- Subdomain enum  
+ ```
   
  <br>
  The project is still in development and will be added with additional functionality.<br>Happy to hear suggestions for improvement.
