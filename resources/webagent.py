@@ -59,6 +59,8 @@ def indicator(x):
             response=requests.get(x,params=None, headers=HEADERS, cookies=None, auth=None, timeout=60).headers
         except requests.exceptions.ConnectionError:
             print("\n Unable to connect ")
+            return
+
         ip = gethostbyname(k)
         ipaddr.append(str(ip))
         t = PrettyTable(["Raw Headers"," informations"])
