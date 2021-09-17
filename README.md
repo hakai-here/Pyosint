@@ -38,7 +38,7 @@ The main functionality of this program has been divided to 3 parts
 <img src = "https://github.com/d8rkmind/datacontainer/blob/main/data/pictures/mceclip0.png" width=1080p>
 <img src = "https://github.com/d8rkmind/datacontainer/blob/main/data/pictures/Untitled.png" width=1080p>
 
-<b>Paste</b> the key inside the curly bracket inside api.json file:
+<b>Paste</b> the key  inside api.json file:
 
 <img src ="https://raw.githubusercontent.com/d8rkmind/datacontainer/main/data/pictures/Screenshot%20at%202021-09-16%2016-07-42.png" width=1080p>
 
@@ -102,5 +102,5 @@ Find module code that has been optimised. The number of sites to automate has gr
 * More Error handiling has been added
 * Number of sites has been increased from 147 to 326
 * Cross platform portable 
-* Reduced unused and unwanted codes codes 
+* Reduced unused and unwanted codes 
 * Removed console mode 
