@@ -96,7 +96,7 @@ Find module code that has been optimised. The number of sites to automate has gr
 
 <h3> Update on 16-09-21:</h3>
 
-* Porgram has been re-written to work with arguments 
+* Program has been re-written to work with arguments 
 * Find module has been added threading Functionality
 * Output functionality has been added to every module 
 * More Error handiling has been added
