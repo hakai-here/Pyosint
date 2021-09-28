@@ -10,7 +10,7 @@
 
  <img src ="https://github.com/d8rkmind/datacontainer/blob/main/data/gif/Pyosint.gif" width=2160px>
 
-<p><b>Subdomain</b> enumeration,Web scraping and finding usernames automation script written in python
+<p align='center'><b>Subdomain</b> enumeration,Web scraping and finding usernames automation script written in python
 <br></p>
 <h2>Installation</h2>
 
@@ -75,7 +75,7 @@ Arguments |Shot<br>form |Long<br>form| Functionality
  <br>
  The project is still in development and will be added with additional functionality.<br>Happy to hear suggestions for improvement.
  
-<br>Special Thanks to <a href="https://github.com/technoreck"> 𝓣𝓮𝓬𝓱𝓷𝓸𝓻𝓮𝓬𝓴</a> and <a href ="https://github.com/Shunux-Stuxnet">𝓢𝓱𝓾𝓷𝓾𝔁 - 𝓢𝓽𝓾𝔁𝓷𝓮𝓽</a> For working on this project 
+<br>Special Thanks to <a href="https://github.com/technoreck"> 𝓣𝓮𝓬𝓱𝓷𝓸𝓻𝓮𝓬𝓴</a> and <a href ="https://github.com/Shunux-Stuxnet">𝓢𝓱𝓾𝓷𝓾𝔁 - 𝓢𝓽𝓾𝔁𝓷𝓮𝓽</a> for working in this project 
 
 
 <h2>License :</h2>
