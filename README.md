@@ -12,6 +12,12 @@
 
 <p align='center'><b>Subdomain</b> enumeration,Web scraping and finding usernames automation script written in python
 <br></p>
+<h2>This tool is only for educational and research purposes, We won't be responsible for any illegal use of it.</h2>
+<p>
+ .
+ .
+ .</p>
+
 <h2>Installation</h2>
 
 ```markdown
