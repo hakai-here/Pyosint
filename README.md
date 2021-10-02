@@ -12,11 +12,7 @@
 
 <p align='center'><b>Subdomain</b> enumeration,Web scraping and finding usernames automation script written in python
 <br></p>
-<h2>This tool is only for educational and research purposes, We won't be responsible for any illegal use of it.</h2>
-<p>
- .
- .
- .</p>
+
 
 <h2>Installation</h2>
 
@@ -83,7 +79,8 @@ Arguments |Shot<br>form |Long<br>form| Functionality
  
 <br>Special Thanks to <a href="https://github.com/technoreck"> 𝓣𝓮𝓬𝓱𝓷𝓸𝓻𝓮𝓬𝓴</a> and <a href ="https://github.com/Shunux-Stuxnet">𝓢𝓱𝓾𝓷𝓾𝔁 - 𝓢𝓽𝓾𝔁𝓷𝓮𝓽</a> for working in this project 
 
-
+<h2>Note : </h2>
+This is only for educational and research purposes.The developers will not be held responsible for any harm caused by anyone who misuses the material.
 <h2>License :</h2>
 Pyosint is licensed under the GNU GPL license. take a look at the <a href="https://github.com/d8rkmind/PyOsint/blob/main/LICENSE">LICENSE</a> for more information
 
