@@ -1,6 +1,6 @@
 
 <h1 align="center">
- 𝓟𝓨𝓞𝓢𝓘𝓝𝓣 
+ ＰＹＯＳＩＮＴ
  </h1>
 
 <p align="center">
@@ -11,7 +11,7 @@
 
  <img src ="https://github.com/d8rkmind/datacontainer/blob/main/data/gif/Pyosint.gif" width=2160px>
 
-<h4 align='center'>Subdomain enumeration,Web scraping and finding usernames automation script written in python
+<h4 align='center'>Subdomain enumeration,Web scraping and finding usernames as automation scripts written in python
 <br></h4>
 
 
