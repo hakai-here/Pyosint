@@ -3,11 +3,7 @@
  ＰＹＯＳＩＮＴ
  </h1>
 
-<p align="center">
-<img src="https://img.shields.io/badge/license-GPL-blue">
- <img src="https://camo.githubusercontent.com/8a6b52f917c9d3391417f3a2b2727b918b425564e54609efe81c58fef6b084e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d57696e646f77732532302537432532304c696e75782d79656c6c6f77">
- <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-</p>
+
 
  <img src ="https://github.com/d8rkmind/datacontainer/blob/main/data/gif/Pyosint.gif" width=2160px>
 
