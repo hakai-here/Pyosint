@@ -5,7 +5,7 @@
 
 
 
- <img src ="https://github.com/d8rkmind/datacontainer/blob/main/data/gif/Pyosint.gif" width=2160px>
+ <img src ="https://github.com/d8rkmind/datacontainer/blob/main/data/gif/Pyosint.gif" >
 
 <h4 align='center'>Subdomain enumeration,Web scraping and finding usernames as automation scripts written in python
 <br></h4>
