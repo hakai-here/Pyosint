@@ -14,7 +14,7 @@
 <h2>Installation</h2>
 
 ```markdown
-git clone https://github.com/syamsv/Pyosint.git
+git clone https://github.com/hakai-here/Pyosint.git
 cd PyOsint
 pip3 install -r requirements.txt
 ```
