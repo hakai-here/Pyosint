@@ -11,7 +11,7 @@ import multiprocessing
 import threading
 import socket
 import json
-from collections import Counter
+from collections.abc import Counter
 import dns.resolver
 import requests
 import urllib.parse as urlparse
